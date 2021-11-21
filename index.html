@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Menu interativo</title>
+    <link rel="stylesheet" href="styless.css">
+    </head>
+
+    <body>
+        <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+           <script>
+               let menutoggle = document.querySelector('.toggle');
+               menutoggle.onclick = function () {
+                   menutoggle.classList.toggle('active')
+               }
+           </script>
+
+
+    </body>
+</html>
